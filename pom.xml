@@ -11,13 +11,13 @@
             <version>6.2.2</version>
             <scope>compile</scope>
         </dependency>
-        
         <dependency>
             <groupId>org.elasticsearch.client</groupId>
             <artifactId>rest</artifactId>
             <version>5.5.3</version>
             <scope>compile</scope>
         </dependency>
+        
         <dependency>
             <groupId>org.elasticsearch.client</groupId>
             <artifactId>elasticsearch-rest-high-level-client</artifactId>
@@ -92,6 +92,14 @@
     		<version>6.2.2</version>
     		<scope>compile</scope>
 		</dependency>
+
+		<dependency>
+    		<groupId>org.mongodb</groupId>
+    		<artifactId>mongo-java-driver</artifactId>
+    		<version>3.6.3</version>
+    		<scope>compile</scope>
+		</dependency>
+		
      </dependencies>
   <build>
         <plugins>

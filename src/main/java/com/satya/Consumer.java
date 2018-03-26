@@ -95,9 +95,9 @@ public class Consumer {
                         		JsonNode dtNode = jsonNode.get("toPort");
                         		String url = "http://localhost:9200/" + groupId + "/record/" + idNode.toString() + "?pretty";
                         		//if match then																																																																																																																																																																																																																																																															
-                        		if(dtNode.equals("Beijing China")){
-                        	    	url = "http://localhost:9200/" + groupId + "/match/" + idNode.toString() + "?pretty";
-                        		}
+//                        		if(dtNode.equals("Beijing China")){
+//                        	    	url = "http://localhost:9200/" + groupId + "/match/" + idNode.toString() + "?pretty";
+//                        		}
                         	    HttpPut put = new HttpPut(url);
                         	    put.setEntity(entity);
 

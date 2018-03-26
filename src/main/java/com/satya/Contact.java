@@ -27,7 +27,6 @@ public class Contact {
 
     }
     public Contact(int contactId, String firstName, String lastName, String travelDate, String toPort, String fromPort ) throws ParseException {
-        System.out.println(LocalDate.parse(travelDate,dstf));
     	this.contactId = contactId;
         this.firstName = firstName;
         this.lastName = lastName;
